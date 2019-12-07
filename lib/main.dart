@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
       ),
       home: BlocProvider(
           create: (context) => TimerBloc(ticker: Ticker()),
-          child: Timer()),
+          child: Timer()
+      ),
     );
   }
 }
